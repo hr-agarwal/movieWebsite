@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta name ="keywords" content="movieVerse, movie">
+     <link rel="stylesheet" href="../css/movieVerse.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ancizar+Serif:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <title>movieVerse</title>
+
+</head>
+<body>
+    <header>
+      <!-- navigation bar -->
+       <nav class="navbar">
+            <input type="checkbox" id="toggle-menu">
+            <label for="toggle-menu" class="hamburger">&#9776;</label>
+            <ul>
+                <li><a href="#contact">Conatct us</a></li>
+                <li><a href="#reviews">Review</a></li>
+                <li><a href="#popular">Popular</a></li>
+                <li><a href="#">Home</a></li>
+                <div class="search">
+                        <input type="text" name="search" id="search" placeholder="search your movie">
+                        
+                    </div>
+                    <div class="logo">
+                        <img src="../img/m.logo.png" alt="error" width="150px" height="110px">
+                    </div>
+                    <div class="logoname">
+                        <h1><strong>MovieVerse</strong></h1>
+                    </div>
+            </ul>
+        </nav>
+
+
+
+        <!-- hero section -->
+        <section class="hero">
+  <div class="hero-left">
+    <h1>Welcome to MovieVerse</h1>
+    <p>Your ultimate destination for trending, popular, and latest movies!</p>
+    <a href="#trending" class="hero-btn">Trending Movies</a>
+  </div>
+  <div class="hero-right">
+
+    <!-- Simple animated SVG -->
+   <div class="svg-animation">
+  <svg viewBox="0 0 200 200" width="200" height="200">
+    <!-- Clapper base -->
+    <rect x="50" y="90" width="100" height="60" rx="8" ry="8" fill="#333" />
+    
+    <!-- Clapper top (animated) -->
+    <g class="clapper-top">
+      <rect x="50" y="60" width="100" height="30" rx="5" ry="5" fill="#666" />
+      <line x1="55" y1="65" x2="85" y2="85" stroke="white" stroke-width="4"/>
+      <line x1="90" y1="65" x2="120" y2="85" stroke="white" stroke-width="4"/>
+      <line x1="125" y1="65" x2="145" y2="85" stroke="white" stroke-width="4"/>
+    </g>
+  </svg>
+</div>
+
+</section>
+
+<section class="trending-section" id="trending">
+  <h2>Trending Movies</h2>
+  <p class="subtitle">Top picks everyone is watching right now!</p>
+
+  <div class="movie-grid">
+    <!-- Movie Card 1 -->
+    <div class="movie-card">
+      <img src="../img/inception.jpg" alt="Inception">
+      <div class="card-info">
+        <h3>Inception</h3>
+        <p>A thief enters dreams to steal secrets from the subconscious.</p>
+        <span class="duration">2h 28m</span>
+        <a href="https://www.netflix.com/in/title/70131314" class="watch-now">Watch Now</a>
+        <label class="watchlist-toggle">
+          <input type="checkbox" />
+          <!-- <span class="toggle-icon">+</span> -->
+        </label>
+      </div>
+    </div>
+
+    <!-- Movie Card 2 -->
+    <div class="movie-card">
+      <img src="../img/Interseller.png" alt="Interstellar">
+      <div class="card-info">
+        <h3>Interstellar</h3>
+        <p>Explorers travel through a wormhole to ensure humanity’s survival.</p>
+        <span class="duration">2h 49m</span>
+        <a href="https://www.netflix.com/in/title/70305903" class="watch-now">Watch Now</a>
+        <label class="watchlist-toggle">
+          <input type="checkbox" />
+        </label>
+      </div>
+    </div>
+
+    <!-- Movie Card 3 -->
+    <div class="movie-card">
+      <img src="../img/joker.png" alt="Joker">
+      <div class="card-info">
+        <h3>Joker</h3>
+        <p>A failed comedian becomes Gotham’s infamous villain.</p>
+        <span class="duration">2h 2m</span>
+        <a href="https://www.primevideo.com/detail/0QTT68M4KL6FAYRRXN8YX1UOEI/" class="watch-now">Watch Now</a>
+        <label class="watchlist-toggle">
+          <input type="checkbox" />
+
+        </label>
+      </div>
+    </div>
+
+    <!-- Movie Card 4 -->
+    <div class="movie-card">
+      <img src="../img/dark knight.jpg" alt="The Dark Knight">
+       <div class="card-info">
+         <h3>The Dark Knight</h3>
+           <p>Batman faces the Joker, who brings chaos to Gotham.</p>
+           <span class="duration">2h 32m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 5 -->
+    <div class="movie-card">
+      <img src="../img/Pushpa_2-_The_Rule.jpg" alt="Pushpa 2: The Rule">
+       <div class="card-info">
+         <h3>Pushpa 2: The Rule</h3>
+           <p>A sequel to Pushpa: The Rise (2021),a labourer-turned-red sandalwood smuggler.</p>
+           <span class="duration">3h 21m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+ 
+    <!-- Movie Card 6 -->
+    <div class="movie-card">
+      <img src="../img/sik.webp" alt="Sikandar">
+       <div class="card-info">
+         <h3>Sikandar</h3>
+           <p> King Sanjay "Sikandar" Rajkot (Khan) is motivated by a tragic accident to redeem his past.</p>
+           <span class="duration">2h 15m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+ 
+    <!-- Movie Card 7 -->
+    <div class="movie-card">
+      <img src="../img/retro.jpg" alt="Retro">
+       <div class="card-info">
+         <h3>Retro</h3>
+           <p> Paarivel “Paari” Kannan, an orphan raised by a gangster, faces betrayal and a violent cult.</p>
+           <span class="duration">2h 30m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 8 -->
+    <div class="movie-card">
+      <img src="../img/The Conjuring.jpg" alt="The Conjuring">
+       <div class="card-info">
+         <h3>The Conjuring</h3>
+           <p>The Warrens come to the assistance of the Perron family, who experienced increasingly disturbing events.</p>
+           <span class="duration">1h 52m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 9 -->
+    <div class="movie-card">
+      <img src="../img/avengers.jpg" alt="Avengers: Infinity War">
+       <div class="card-info">
+         <h3>Avengers: Infinity War</h3>
+           <p>the Avengers and the Guardians of the Galaxy attempt to stop Thanos from collecting the Powerful Infinity Stones.</p>
+           <span class="duration">2h 29m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 10 -->
+    <div class="movie-card">
+      <img src="../img/harrypotter.jpg" alt="Harry Potter and the Deathly Hallows: Part 2">
+       <div class="card-info">
+         <h3>Harry Potter and the Deathly Hallows: Part 2</h3>
+           <p>Harry Potter's quest to find and destroy Lord Voldemort's Horcruxes in order to stop him once and for all.</p>
+           <span class="duration">2h 10m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+ 
+    <!-- Movie Card 11 -->
+    <div class="movie-card">
+      <img src="../img/johnwick4.jpg" alt="John Wick: Chapter 4">
+       <div class="card-info">
+         <h3>John Wick: Chapter 4</h3>
+           <p>It is the sequel to John Wick: Chapter 3 – Parabellum. John Wick sets out for revenge on the High Table and those who left him for dead.</p>
+           <span class="duration">2h 49m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+ 
+    <!-- Movie Card 12 -->
+    <div class="movie-card">
+      <img src="../img/365days.jpg" alt="365 Days">
+       <div class="card-info">
+         <h3>365 Days</h3>
+           <p>a young Warsaw woman in a relationship falling for a Sicilian man, who imprison  her a period of 365 days for her to fall in love with him.</p>
+           <span class="duration">1h 56m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 13 -->
+    <div class="movie-card">
+      <img src="../img/fiftyshadesdarker.jpg" alt="Fifty Shades Darker">
+       <div class="card-info">
+         <h3>Fifty Shades Darker</h3>
+           <p> It follows Ana and Christian as they must decide to rekindle their relationship, this time with "no rules, no punishments, and no more secrets" terms.</p>
+           <span class="duration">2h 05m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  
+    <!-- Movie Card 14 -->
+    <div class="movie-card">
+      <img src="../img/love and other drugs.jpg" alt="Love & Other Drugs">
+       <div class="card-info">
+         <h3>Love & Other Drugs</h3>
+           <p>the story of a medicine peddler in 1990s Pittsburgh who starts a relationship with a young woman suffering from Parkinson's disease.</p>
+           <span class="duration">1h 52m</span>
+           <a href="https://www.netflix.com/in/title/70079583" class="watch-now">Watch Now</a>
+           <label class="watchlist-toggle">
+           <input type="checkbox" />
+         </label>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Popular Shows Section -->
+<section id="popular" style="color:white; padding: 50px 20px;">
+  <h2 style="text-align:center; font-size: 2em;">Popular Shows</h2>
+  <p style="text-align:center; font-size: 1.2em;">Fan favorites that you'll binge-watch!</p>
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; margin-top: 30px;">
+
+    <!-- Naruto Card -->
+    <div style="position: relative; width: 250px; background: #1c1c1c; border-radius: 10px; overflow: hidden;">
+      <img src="../img/Naruto.jpg" alt="Naruto" style="width:100%;">
+      <div style="padding: 15px;">
+        <h3>Naruto</h3>
+        <p>Action | 9 Seasons | 220 Episodes</p>
+        <p>The journey of a young ninja to become Hokage.</p>
+      </div>
+    </div>
+
+    <!-- Demon Slayer Card -->
+    <div style="position: relative; width: 250px; background: #1c1c1c; border-radius: 10px; overflow: hidden;">
+      <img src="../img/demon slayer.jpg" alt="Demon Slayer" style="width:100%;">
+      <div style="padding: 15px;">
+        <h3>Demon Slayer</h3>
+        <p>Fantasy | 4 Seasons | 55 Episodes</p>
+        <p>Tanjiro fights demons to save his sister Nezuko.</p>
+      </div>
+    </div>
+
+    <!-- Attack on Titan Card -->
+    <div style="position: relative; width: 250px; background: #1c1c1c; border-radius: 10px; overflow: hidden;">
+      <img src="../img/attack on titan.jpg" alt="Attack on Titan" style="width:100%;">
+      <div style="padding: 15px;">
+        <h3>Attack on Titan</h3>
+        <p>Sci-fi | 4 Seasons | 87 Episodes</p>
+        <p>Humans fight Titans in a dystopian world.</p>
+      </div>
+    </div>
+
+    <!-- Jujutsu Kaisen Card -->
+    <div style="position: relative; width: 250px; background: #1c1c1c; border-radius: 10px; overflow: hidden;">
+      <img src="../img/jujutsu.jpg" alt="Jujutsu Kaisen" style="width:100%;">
+      <div style="padding: 15px;">
+        <h3>Jujutsu Kaisen</h3>
+        <p>Supernatural | 2 Seasons | 47 Episodes</p>
+        <p>Yuji Itadori battles curses with sorcery.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- User Reviews Section -->
+<section id="reviews" style="color:white; padding: 50px 20px;">
+  <h2 style="text-align:center; font-size: 2em;">📝 User Reviews</h2>
+  <p style="text-align:center; font-size: 1.2em;">What our users are saying</p>
+  
+  <div style="display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; margin-top: 30px;">
+    <div style="background:#222; padding: 20px; border-radius: 10px; width: 300px;">
+      <img src="../img/IMG_2323.jpg" style="width:50px; border-radius:50%;">
+      <h4>Harsh Agarwal</h4>
+      <p>“Amazing platform! Found all my fav movies easily.”</p>
+    </div>
+    <!-- More review cards -->
+  </div>
+
+  <!-- Review Form -->
+  <form style="max-width: 500px; margin: 40px auto; background:#1c1c1c; padding: 30px; border-radius: 10px;">
+    <h3>Submit Your Review</h3>
+    <input type="text" placeholder="Your Name" required style="width:100%; margin: 10px 0; padding:10px;border-radius: 20px;">
+    <input type="email" placeholder="Your Email" required style="width:100%; margin: 10px 0; padding:10px;border-radius: 20px;">
+    <textarea placeholder="Your Review" rows="5" required style="width:100%; margin: 10px 0; padding:10px;border-radius: 20px;"></textarea>
+    <button type="submit" style="background:red; color:white; padding: 10px 20px; border: none;cursor: pointer;border-radius: 15px;">Submit</button>
+   </form>
+ </section>
+</header>
+
+    <!-- Footer Section -->
+<footer id="contact">
+  <div style="margin-bottom: 15px;">
+    <a href="https://facebook.com" target="_blank" style="margin: 0 10px;"><img src="../img/facebook.png" alt="Facebook"></a>
+    <a href="https://twitter.com" target="_blank" style="margin: 0 10px;"><img src="../img/twitter.png" alt="Twitter"></a>
+    <a href="https://instagram.com" target="_blank" style="margin: 0 10px;"><img src="../img/instagram.png" alt="Instagram"></a>
+  </div>
+  <div style="margin-bottom: 10px;">
+    <a href="https://brand.netflix.com/en/terms/" target="_blank" style="color: #aaa; margin: 0 10px;">Terms & Conditions</a> |
+    <a href="https://www.netflixinyourneighbourhood.ca/privacy/" target="_blank" style="color: #aaa; margin: 0 10px;">Privacy Policy</a>
+  </div>
+  <p style="color: gray;">&copy; 2025 MyMovieVerse. All rights reserved.</p>
+
+  <!-- Back to top -->
+  <a href="#" class="back-to-top" style="position: absolute; right: 20px; bottom: 20px; background: #222; color: white; padding: 10px; border-radius: 50%;">⬆</a>
+</footer>
+
+</body>
+</html> 
