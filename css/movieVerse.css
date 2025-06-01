@@ -189,7 +189,7 @@
     border-radius: 12px;
     overflow: hidden;
     position: relative;
-    transition: transform 0.3s;
+    transition: transform 0.03s;
 }
 
 .movie-card:hover {
