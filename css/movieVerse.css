@@ -36,6 +36,7 @@
     .navmiddle {
       flex-grow: 1;
       margin: 0 20px;
+      width: 55%;
     }
 
     .search {
@@ -73,7 +74,7 @@
       background: none;
       border: none;
       color: white;
-      margin-right: 10px;
+      margin-right: 20px;
     }
 
     #menu-toggle {
